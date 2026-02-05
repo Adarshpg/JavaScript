@@ -26,14 +26,37 @@
 
 //Array, Object, Functions
 
-const heros=["Adarsh","Ganesh","Harish"]
-let mydet={
-    name:"Adarsh",
-    age:22
+// const heros=["Adarsh","Ganesh","Harish"]
+// let mydet={
+//     name:"Adarsh",
+//     age:22
+// }
+
+// const myFunction=function(){
+//     console.log("Hello,World!")
+// }
+
+// console.log(typeof myFunction)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// Stack(Primitive) and Heap(Non Primitive)
+let myYoutubechannel="adarsh_developer"
+
+let anotherchannel=myYoutubechannel
+anotherchannel="code with harry"
+
+// console.log(anotherchannel)
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
 }
 
-const myFunction=function(){
-    console.log("Hello,World!")
+let userTwo={
+    email:"adarshpg@gmail.com",
+    upi:"123@ybl"
 }
 
-console.log(typeof myFunction)
+
+console.table([userOne,userTwo])
